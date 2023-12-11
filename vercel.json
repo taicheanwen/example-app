@@ -19,6 +19,8 @@
         "APP_ROUTES_CACHE": "/tmp/routes.php",
         "APP_SERVICES_CACHE": "/tmp/services.php",
         "VIEW_COMPILED_PATH": "/tmp",
+        "JWT_SECRET": "TIfwzvlyoyDLMTnuYvZ771DeYcv0HmJvyFgajlGezgWU0cekfY0dLGJfvoL3AkjE",
+        "JWT_ALGO": "HS256",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
