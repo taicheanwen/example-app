@@ -11,7 +11,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://flutter-api-vercel.vercel.app/",
+        "APP_URL": "https://vercel.com/taicheanwens-projects/example-app",
         "APP_KEY": "base64:Rz49PcIQT51da34ahJ4F9WV3+BZsLte/O98w4CM9IOY=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
