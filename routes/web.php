@@ -24,7 +24,6 @@ Route::controller(ImageController::class)->group(function(){
     Route::get('image-upload', 'index');
     Route::post('image-upload', 'store')->name('image.store');
 });
-
-Route::get('/', function(){
+Route::get('/', function () {
     return view('welcome');
 });
