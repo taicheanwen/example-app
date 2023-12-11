@@ -1,2 +1,13 @@
 <?php
-require __DIR__ . '/../public/index.php';
+ 
+// Load the Laravel application
+require _DIR_ . '/../vendor/autoload.php';
+$app = require_once _DIR_ . '/../bootstrap/app.php';
+ 
+// Run the application
+$kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
+$response = $kernel->handle(
+    $request = Illuminate\Http\Request::capture()
+);
+$response->send();
+$kernel->terminate($request,$response);
