@@ -27,4 +27,4 @@ Route::controller(ImageController::class)->group(function(){
 
 Route::get('/', function(){
     return view('welcome');
-)};
+});
